@@ -1,0 +1,531 @@
+/************************ 
+ * Auteur: Gerber Denis *
+ * Date: 27 août 2014   *
+ * Lieu: Renens         *
+ * Type: CSS            *
+************************/
+
+
+/*Toute la partie du menu*/
+#navigation{
+	
+}
+#navigation a{
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: #5B6A75;
+	margin-left: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+#nav_Home{
+	background-color: #E2DECF;
+	height: 45px;
+	width: 140px;
+	font-family: Helvetica;
+	color: #5B6A75;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	margin-left: 150px;
+}
+#nav_App{
+	background-color: #E2DECF;
+	max-height: 45px;
+	max-width: 140px;
+	font-family: Helvetica;
+	color: #5B6A75;
+	font-size: 15px;
+	line-height: 15px;
+	margin-left: 40px;
+}
+#nav_Knowledge{
+	background-color: #E2DECF;
+	height: 45px;
+	width: 140px;
+	font-family: Helvetica;
+	color: #5B6A75;
+	font-size: 15px;
+	line-height: 15px;
+	margin-left: 40px;
+}
+#nav_Tickets{
+	background-color: #E2DECF;
+	height: 45px;
+	width: 140px;
+	font-family: Helvetica;
+	color: #5B6A75;
+	font-size: 15px;
+	line-height: 15px;
+	margin-left: 40px;
+	margin-right: 150px;
+}
+#trait_Home{
+	background-color:#5B6A75;
+	height: 2px;
+	width: 140px;
+	line-height: 50px;
+	margin-left: 150px;
+}
+#trait_App{
+	background-color:#EB5F47;
+	height: 2px;
+	width: 140px;
+	line-height: 50px;
+	margin-left: 40px;
+}
+#trait_Knowledge{
+	background-color:#0096A7;
+	height: 2px;
+	width: 140px;
+	line-height: 50px;
+	margin-left: 40px;
+}
+#trait_Tickets{
+	background-color:#F19625;
+	height: 2px;
+	width: 140px;
+	line-height: 50px;
+	margin-left: 40px;
+	margin-right: 150px;
+}
+/*Propriété du Header*/
+#header{
+	width:100%;
+	background-color: #E2DECF;
+	margin-top: 0px;
+}
+
+/*Propriété du Footer*/
+#footer{
+	height: 72px;
+	width: 100%;	
+	background-color: #4A555C;
+}
+/*Propriété du contenu, c'est à dire 
+ce qu'il y a entre le header et le footer*/
+#contenu{
+	height: 795px;
+	max-width: 100%;
+	background-color:#7A8B96;
+/*Propriété des 3 panneaux
+Entête, Items*/
+}
+#App_Store{
+	max-height: 110px;
+	max-width: 300px;
+	background-color: #EB5F47;
+	font-family: Helvetica;
+	vertical-align: middle;
+	line-height: 90px;  
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	margin-right: 100px;
+	margin-left: -10px;
+}
+#Knowledge_Base{
+	margin-bottom: 30px;
+	max-height: 110px;
+	max-width: 300px;  
+	background-color: #0096A7;
+	vertical-align: middle;
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: justify;
+	margin-right: -50px;
+}
+#Knowledge_Base img{
+	margin-right: 40px;
+}
+#Tickets{
+	margin-bottom: 20px;
+	max-height: 110px;
+	max-width: 300px;
+	background-color: #F19625;
+	font-family: Helvetica;
+	vertical-align: middle;
+	line-height: 90px;
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-right: -10px;
+}
+#App_Store2{
+	height: 240px;
+	width: 300px;
+	background-color: #ED7C59;
+	vertical-align: middle;
+	margin-right: 100px;
+	margin-left: -10px;
+}
+
+#itemApp_Store{
+	height: 30px;
+	width: 250px;
+	background-color: #EB5F47;
+	border-radius: 100px;
+	font-family: OpenSans;
+	font-size: 15px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: right;
+}
+#itemApp_Store p{
+	float:left;
+	}
+#rond_App{
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	font-family: Helvetica;
+	font-size: 10px;
+	text-align: center;
+	color: #EB5F47;
+	background-color: #FFFFFF;
+	margin-left: 225px;
+}
+#Knowledge_Base2{
+	height: 240px;
+	width: 300px;
+	background-color: #00A3B5;
+	vertical-align: middle;
+	margin-left: 390px;
+}
+#itemKnowledge{
+	height: 30px;
+	width: 250px;
+	background-color: #0096A7;
+	border-radius: 100px;
+	font-family: OpenSans;
+	font-size: 15px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: right;
+
+}
+#itemKnowledge p{
+	float:left;
+	}
+#rond_Knowledge{
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	font-family: Helvetica;
+	font-size: 10px;
+	text-align: center;
+	color: #0096A7;
+	background-color: #FFFFFF;
+	margin-left: 225px;
+}
+#Tickets2{
+	height: 240px;
+	width: 300px;
+	background-color: #F3A348;
+	vertical-align: middle;
+	margin-right: -10px;
+}
+#itemTickets{
+	height: 30px;
+	width: 250px;
+	background-color: #F19625;
+	border-radius: 100px;
+	font-family: OpenSans;
+	font-size: 15px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: right;
+
+}
+#itemTickets p{
+	float:left;
+	}
+#rond_Tickets{
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	font-family: Helvetica;
+	font-size: 10px;
+	text-align: center;
+	color: #F19625;
+	background-color: #FFFFFF;
+	margin-left: 225px;
+
+}
+/*Propriété des 8 cases et 
+animation des cases
+grâce au ":active"*/
+#case1{
+	height: 140px;
+	width: 220px;
+	perspective:500px;  
+	margin-bottom: 70px;
+	margin-right: 70px;
+	margin-left: -24px;
+}
+#case1:active #flip{
+      transform: rotateY(-180deg);
+}
+#case2{
+	height: 140px;
+	width: 220px;
+	perspective:500px; 
+	margin-bottom: 70px; 
+	margin-right: 70px;
+}
+#case2:active #flip{
+      transform: rotateY(-180deg);
+}
+#case3{
+	height: 140px;
+	width: 220px;
+	perspective:500px;
+	margin-bottom: 80px;
+	margin-right: 80px;
+}
+#case3:active #flip{
+      transform: rotateY(-180deg);
+}
+#case4{
+	height: 140px;
+	width: 220px;
+	perspective:500px;
+	margin-bottom: 70px;
+	margin-right: 0px;
+}
+#case4:active #flip{
+      transform: rotateY(-180deg);
+}
+#case5{
+	height: 140px;
+	width: 220px;
+	perspective:500px;
+	margin-right: 70px;
+	margin-left: -24px;
+}
+#case5:active #flip{
+      transform: rotateY(-180deg);
+}
+#case6{
+	height: 140px;
+	width: 220px;
+	perspective:500px;
+	margin-right: 70px;
+}
+#case6:active #flip{
+      transform: rotateY(-180deg);
+}
+
+#case7{
+	height: 140px;
+	width: 220px;
+	perspective:500px;
+	margin-right: 70px;
+}
+#case7 img{
+	width: 206px;
+	height: 94px;
+	text-align: center;
+	margin-top: 40px;
+}
+#case7:active #flip{
+      transform: rotateY(-180deg);
+}
+#case8{
+	height: 140px;
+	width: 220px;
+	perspective:500px;
+	margin-right: 0px;
+}
+#case8:active #flip{
+      transform: rotateY(-180deg);
+}
+#flip{
+      width:220px;
+      height:140px;
+      transition:all 1s ease;
+      transform-style:preserve-3d;
+}
+#flip #Texte1{
+
+      position:absolute;
+      width:220px;
+      height:140px;
+      background:white;  
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      color:#5B6A75;
+      background-image: url(images/coin1.png);
+      background-repeat: no-repeat;
+	  background-position: top right;
+      backface-visibility: hidden;  
+      -webkit-animation-fill-mode: forwards;  
+}
+#flip #Texte2{
+      position:absolute;
+      width:220px;
+      height:140px;
+      background:white; 
+      font-family: 'Yanone Kaffeesatz', sans-serif; 
+      color:#5B6A75;
+      background-image: url(images/coin2.png);
+      background-repeat: no-repeat;
+	  background-position: top left;
+      backface-visibility: hidden; 
+      transform: rotateY(180deg);
+
+}
+/*Optimisation de l'écart entre 
+les différents panneaux et cases*/
+#panneaux_3{
+	text-align: center;
+
+}
+#panneaux_3 span.droit{
+	float: right;
+}
+#panneaux_3 span.gauche{
+	float: left;
+}
+#panneaux_3 img{
+	float: left;
+	line-height: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#panneaux_8{
+	margin-top: 30px;
+	color:#5B6A75
+
+}
+#panneaux_8 h3{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	}
+/*Déclaration des différents style pour les cases*/
+#titre_case{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	
+	margin-left: 10px;
+}
+#statistiques{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 40px;
+	text-align: right;
+	color: #67686B;
+}
+#statistiques span{
+
+	float: left;
+	font-size: 20px;
+	color:#5B6A75;
+	margin-left: 10px;
+}
+
+/*Propriété du menu about*/
+#about a{
+	text-decoration: none;
+	font-size: 15px;
+	color:#000000;	
+}
+li{
+	text-decoration: none;
+	display: inline;
+}
+/*Changement de couleur pour le menu des 4 boutons*/
+#nav_App:hover{
+	background: #EB5F47;
+}
+#nav_Knowledge:hover{
+	background: #0096A7;
+}
+#nav_Tickets:hover{
+	background: #F19625;
+}
+#nav_Home:hover{
+	background: #5B6A75;
+	color: #FFFFFF;
+}
+#nav_App:hover a{
+	color: #FFFFFF;
+}
+#nav_Knowledge:hover a{
+	color: #FFFFFF;
+}
+#nav_Tickets:hover a{
+	color: #FFFFFF;
+}
+/*Positionnement et propriété du champ de recherche*/
+.Search{
+	
+	color: #039df8;
+	
+}
+input{
+
+	background-color: #E4E4E2;
+	width:300px;
+	height:35px;
+}
+#button{
+	width:52px;
+	height:35px;
+	text-align: center;
+	margin-top: 20px;
+}
+/*Alignement du menu about part 2*/
+#tab_Search span.gauche{
+	margin-top: 20px;
+	margin-left: 600px;
+}
+
+input:focus{
+	color:#000000;
+}
+/*Propriété de l'élément Date*/
+#Date{
+	color:#FFFFFF;
+	font-family: OpenSans;
+	font-style: bold;
+	font-size: 18px;
+}
+#Date sup{
+	font-size: 10px;
+}
+/*Propriété de la partie utilisateur*/
+#rond_User{
+	height: 18px;
+	width: 18px;
+	border-radius: 100px;
+	font-family: Helvetica;
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #E66140;
+	margin-left: -2px;
+}
+#user{
+	width:150px;
+	height:20px;
+	background-color: #B3ACA1;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+#user span.droite{
+	float:right; 
+
+}
+#user span.gauche{
+	float:left;
+
+}
+#aboutUser{
+
+}
+
+
+
+
+

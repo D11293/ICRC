@@ -1,0 +1,243 @@
+<!--************************* _____
+* Auteur: Denis Gerber      *   ^        
+* Date: 16 septembre 2014	*  /_\      
+* Lieu: Renens		     	*   |         
+* Type: HTML 			    *   |            
+**************************-->  
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.2.0\dist\css\bootstrap.css">
+<link rel="icon" type="image/png" href="images/ict-icrc.png" />
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>      			
+
+	<head>
+		<title>ICRC - ICT Services</title>
+	</head>
+<body>
+	
+<div id="header">
+<img class="banniere" src="images/banniere.png" height="30.97px" ></img>
+	<div class="container">
+		
+			
+	<!-- Menu about et contact-->
+	<section class="row">
+		<div class="pull-right" id="aboutUser">
+	
+		<ul id="about">
+			<li><a href="">About us</a> |</li> 
+			<li><a href="">Contact us</a></li>
+		
+			<div id="user"><span class="droite">Richard Cherpillod</span>
+				<div id="rond_User"><span class="gauche"><center>3</center></span>
+				</div>
+			</div>
+		<img src="images/User.png" width="60px" height="20px">
+
+		</div></ul>
+		</section>
+
+	<!-- Menu avec les 4 boutons et les 2 logos qui doivent y être aligné --> 
+
+	<section class="modal-body" class="row-fluid">
+<div id="navigation">
+	<span class="pull-left"><img src="images/logo_icrc.png" height="67px" width="65.5px"></img></span>
+		<div class="nav-tabs">
+		<li><div class="col-xs-12" class="col-sm-6" class="col-md-4" id="trait_Home">
+			</div>
+			<div id="nav_Home"><center>Home</center>
+			</div></li>
+		<li><div class="col-xs-12" class="col-sm-6" class="col-md-4" id="trait_App">
+			</div>
+			<div id="nav_App"><a href=""><center>App Store</center></a>
+			</div></li>
+		<li><div class="col-xs-12" class="col-sm-6" class="col-md-4" id="trait_Knowledge">
+			</div>
+			<div id="nav_Knowledge"><a href=""><center>Knowledge Base</center></a>
+			</div></li>
+		<li><div class="col-xs-12" class="col-sm-6" class="col-md-4" id="trait_Tickets">
+			</div>
+			<div  id="nav_Tickets"><a href=""><center>Tickets</center></a>
+			</div></li>
+		</div>
+	<span class="pull-right"><img src="images/logo_ict_services.png" height="64.75px" width="56.5px"></img></span>
+	</section>
+
+	</div>
+</div>
+<div id="contenu">
+	<div class="container">
+	<section class="modal-body" class="row-fluid">
+	<form>
+	<!-- le tableau pour la date et le champ de recherche --> 
+	<div id="tab_Search">
+		<li><span class="gauche">
+			<div class="pull-left" id="Date"><script src="js/Date.js"></script><script src="js/Jour.js"></script><sup>TH</sup>
+			</div></span>
+		</li>
+		<li><button class="pull-right" id="button"><img src="images/Search.png" width:"39px" height:"26px"></img></button></span></li>
+		<li><span class="pull-right" class="droite"><input type="text" class="search" value="Search..." onFocus="this.value=''"></span></li>
+	</div>
+	</form>
+	</br>
+	</br>
+	</section>
+<section class="modal-body" class="row-fluid">
+
+
+	<!-- le tableau pour les 3 premiers panneaux (App Store, Knowledge, Tickets, ainsi que leurs items) 	 
+		 _______________________________________________	
+		|				|		   		|				|		   		
+		|				|				|				|		  
+		|		1		|		2 		|		3		|
+		|				|		   		|				|		 		
+		|_______________|_______________|_______________|
+		-->
+				<div class="col-xs-12" class="col-sm-3" class="col-md-4" id = "panneaux_3">
+
+					<span class="gauche"> 
+					<li class="col-xs-12" class="col-sm-3" class="col-md-4" id="App_Store"><img src="images/ict-store.png"> App Store</li>
+					<div id="App_Store2">
+						<li id="itemApp_Store"><p>Reporting</p> 
+						<div id="rond_App">7
+						</div></li>
+						<li id="itemApp_Store"><p>Logistic & Transport</p>
+						<div id="rond_App">20
+						</div></li>
+						<li id="itemApp_Store"><p>Office</p>
+						<div id="rond_App">3
+						</div></li>
+					</div></span>
+
+					<span class="droit">
+					<li class="col-xs-12" class="col-sm-3" class="col-md-4" id="Tickets"><img src="images/todo.png">Tickets</li>
+					<div id="Tickets2">
+						<li id="itemTickets"><p>Incidents</p>
+						<div id="rond_Tickets">0
+						</div></li>
+						<li id="itemTickets"><p>Requests</p>
+						<div id="rond_Tickets">7
+						</div></li>
+						<li><button class="btn btn-default">Submit ticket</button></li>
+					</div></span>
+				
+				<li class="col-xs-12" class="col-sm-3" class="col-md-4" id="Knowledge_Base"><img src="images/knowledge.png"></img>Knowledge</br>Base</li>
+						<div id="Knowledge_Base2">
+						<li id="itemKnowledge"><p>Loreum ipsum</p> 
+						<div id="rond_Knowledge">0
+						</div></li>
+						<li id="itemKnowledge"><p>Loreum ipsum</p>
+						<div id="rond_Knowledge">7
+						</div></li>
+					</div>	
+						
+				</div>
+				</section>
+		<!-- le tableau pour les 8 cases suivantes						 
+		 _______________________________________________________________	
+		|			   \|		   	   \|			   \|		   	   \|
+		|				|				|				|		   		|
+		|		1		|		2 		|		3		|		4		|
+		|				|		   		|				|		 		|
+		|_______________|_______________|_______________|_______________|
+		|			   \|		   	   \|			   \|		   	   \|
+		|				|	   			|				|		   		|
+		|		5		|		6		|		7		|		8  		|
+		|				|		   		|				|		   		|
+		|_______________|_______________|_______________|_______________|
+		-->
+		<div class="modal-body">
+			<section class="row-fluid">
+		<div class="col-xs-12" class="col-sm-6" class="col-md-4" id="panneaux_8">
+
+			<li  class="col-xs-12" class="col-sm-6" class="col-md-4" id="case1">
+			<div id="flip">
+				<div id="Texte1"><p id="titre_case"><h3>CM_ICT Volume</h3></p>
+					<div id="statistiques">3248
+					</div>
+				</div>
+				<div id="Texte2"><p></p>
+				</div>
+			</div></li>
+			<li class="col-xs-12" class="col-sm-6" class="col-md-4" id="case2">
+			<div id="flip">
+				<div id="Texte1"><p id="titre_case"><h3>Call answered</h3></p>
+					<div id="statistiques"><p><span>Target: 95%</span>95%</p>
+					</div> 
+				</div>
+				<div id="Texte2"><p></p>
+				</div>
+			</div></li>
+			
+			<li class="col-xs-12" class="col-sm-6" class="col-md-4" id="case3">
+			<div id="flip">
+				<div id="Texte1">
+					<div id="titre_case"><h3>Closed insidents <br/>with SLA breached</h3>
+					</div>
+					<div id="statistiques"><p><span>Target: 20%</span>10%</p>
+					</div>
+				</div>
+				<div id="Texte2"><p></p>
+				</div>
+			</div></li>
+
+				<li class="col-xs-12" class="col-sm-6" class="col-md-4" id="case4">
+			<div id="flip">
+				<div id="Texte1">
+					<div id="titre_case"><h3>Open incidents<br/>with SLA breached</h3>
+					</div>
+					<div id="statistiques"><p><span>Target: 20%</span>27%</p>
+					</div>
+				</div>
+				<div id="Texte2">
+				</div>
+			</div></li>
+
+				<li class="col-xs-12" class="col-sm-6" class="col-md-4" id="case5">
+			<div id="flip">
+				<div id="Texte1"><p id="titre_case"><h3>CM_ICT Trend</h3></p>
+				</div>
+				<div id="Texte2">
+				</div>
+			</div></li>
+
+				<li class="col-xs-12" class="col-sm-6" class="col-md-4" id="case6">
+				<div id="flip">
+					<div id="Texte1"><p id="titre_case"><h3>First Time Closure</h3>
+						<div id="statistiques"><span>Target: 65%</span>64%</p>
+						</div>
+					</div>
+					<div id="Texte2">
+					</div>
+				</div></li>
+	
+				<li class="col-xs-12" class="col-sm-6" class="col-md-4" id="case7">
+				<div id="flip">
+					<div id="Texte1">
+					</div>
+					<div id="Texte2"><p><img src="images/Graph.png"></p>
+					</div>
+				</div>
+				</li>
+
+				<li class="col-xs-12" class="col-sm-6" class="col-md-4" id="case8">
+				<div id="flip">
+					<div id="Texte1">
+						<div id="titre_case"><h3>Avg duration<br/>workdays </h3>
+						</div>
+						<div id="statistiques">51.9
+						</div>
+					</div>
+					<div id="Texte2">
+					</div>
+				</div></li>
+		</div>
+		</div>
+		</section>
+</div>	
+</div>
+	<div id="footer"></div>
+
+	</body>
+</html>
